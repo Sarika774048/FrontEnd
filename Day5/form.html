@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Course Registration Form</h1>
+
+    <form action="" method = "get" autocomplete="on" autocapitalize="on" autocorrect="on">
+
+        <table cellpadding="8">
+
+            <tr>
+                <td>
+                    <label for="fname">First Name</label>
+                </td>
+                <td>
+                    <input type="text"
+                           id="fname"
+                           name="fname"
+                           value=""
+                           required
+                           placeholder="Sarika">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="surname">Surname</label>
+                </td>
+                <td>
+                    <input type="text"
+                           id="surname"
+                           name="surname"
+                           value=""
+                           required
+                           placeholder="N">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="mobile">Mobile</label>
+                </td>
+                <td>
+                    <input type="tel"
+                           id="mobile"
+                           name="mobile"
+                           value=""
+                           required
+                           placeholder="908903454">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           value=""
+                           required
+                           placeholder="sarikanmks897@gmail.com">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           value=""
+                           required
+                           placeholder="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="confirmPassword">Confirm Password</label>
+                </td>
+                <td>
+                    <input type="password"
+                           id="confirmPassword"
+                           name="confirmPassword"
+                           value=""
+                           required
+                           placeholder="confirm password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date"
+                           id="dob"
+                           name="dob"
+                           value=""
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input type="number"
+                           id="age"
+                           name="age"
+                           value=""
+                           required
+                           placeholder="18-100">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="genderMale">Gender</label>
+                </td>
+                <td>
+                    <input type="radio"
+                           id="genderMale"
+                           name="gender"
+                           value="Male">
+                    <label for="genderMale">Male</label>
+
+                    <input type="radio"
+                           id="genderFemale"
+                           name="gender"
+                           value="Female">
+                    <label for="genderFemale">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="country">Select Country</label>
+                </td>
+                <td>
+                    <select id="country" name="country">
+
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                        <option value="Germany">Germany</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="picture">Upload Picture</label>
+                </td>
+                <td>
+                    <input type="file"
+                           id="picture"
+                           name="picture"
+                           value=""
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+
+                    <button type="submit"
+                            id="submitBtn"
+                            name="submitBtn"
+                            value="Submit">
+                        Submit Form
+                    </button>
+
+                </td>
+            </tr>
+
+
+
+            <!-- new features -->
+                        <!-- Address -->
+                        <tr>
+                            <td>
+                                <label for="address">Address</label>
+                            </td>
+                            <td>
+                                <textarea id="address"
+                                          name="address"
+                                          rows="4"
+                                          cols="30"
+                                          placeholder="Enter your full address"
+                                          required></textarea>
+                            </td>
+                        </tr>
+            
+                        <!-- City -->
+                        <tr>
+                            <td>
+                                <label for="city">City</label>
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="city"
+                                       name="city"
+                                       placeholder="Mumbai"
+                                       required>
+                            </td>
+                        </tr>
+            
+                        <!-- State -->
+                        <tr>
+                            <td>
+                                <label for="state">State</label>
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="state"
+                                       name="state"
+                                       placeholder="Maharashtra"
+                                       required>
+                            </td>
+                        </tr>
+            
+                        <!-- Pincode -->
+                        <tr>
+                            <td>
+                                <label for="pincode">Pincode</label>
+                            </td>
+                            <td>
+                                <input type="number"
+                                       id="pincode"
+                                       name="pincode"
+                                       placeholder="400001"
+                                       required>
+                            </td>
+                        </tr>
+            
+                        <!-- Nationality -->
+                        <tr>
+                            <td>
+                                <label for="nationality">Nationality</label>
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="nationality"
+                                       name="nationality"
+                                       placeholder="Indian"
+                                       required>
+                            </td>
+                        </tr>
+            
+                        <!-- Aadhaar -->
+                        <tr>
+                            <td>
+                                <label for="aadhaar">Aadhaar Number</label>
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="aadhaar"
+                                       name="aadhaar"
+                                       placeholder="1234 5678 9012"
+                                       required>
+                            </td>
+                        </tr>
+            
+                        <!-- Parent Name -->
+                        <tr>
+                            <td>
+                                <label for="parentName">Parent/Guardian Name</label>
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="parentName"
+                                       name="parentName"
+                                       placeholder="Parent Name"
+                                       required>
+                            </td>
+                        </tr>
+            
+                        <!-- Parent Mobile -->
+                        <tr>
+                            <td>
+                                <label for="parentMobile">Parent Mobile</label>
+                            </td>
+                            <td>
+                                <input type="tel"
+                                       id="parentMobile"
+                                       name="parentMobile"
+                                       placeholder="9876543210"
+                                       required>
+                            </td>
+                        </tr>
+            
+                        <!-- Qualification -->
+                        <tr>
+                            <td>
+                                <label for="qualification">Highest Qualification</label>
+                            </td>
+                            <td>
+                                <select id="qualification" name="qualification" required>
+                                    <option value="">Select Qualification</option>
+                                    <option value="10th">10th</option>
+                                    <option value="12th">12th</option>
+                                    <option value="Diploma">Diploma</option>
+                                    <option value="UG">Under Graduate</option>
+                                    <option value="PG">Post Graduate</option>
+                                </select>
+                            </td>
+                        </tr>
+            
+                        <!-- College -->
+                        <tr>
+                            <td>
+                                <label for="college">College/School Name</label>
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="college"
+                                       name="college"
+                                       placeholder="XYZ College">
+                            </td>
+                        </tr>
+            
+                        <!-- Passing Year -->
+                        <tr>
+                            <td>
+                                <label for="passingYear">Passing Year</label>
+                            </td>
+                            <td>
+                                <input type="number"
+                                       id="passingYear"
+                                       name="passingYear"
+                                       placeholder="2025">
+                            </td>
+                        </tr>
+            
+                        <!-- Percentage -->
+                        <tr>
+                            <td>
+                                <label for="percentage">Percentage/CGPA</label>
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="percentage"
+                                       name="percentage"
+                                       placeholder="85%">
+                            </td>
+                        </tr>
+            
+                        <!-- Course Selection -->
+                        <tr>
+                            <td>
+                                <label for="course">Select Course</label>
+                            </td>
+                            <td>
+                                <select id="course" name="course" required>
+                                    <option value="">Choose Course</option>
+                                    <option value="HTML">HTML</option>
+                                    <option value="CSS">CSS</option>
+                                    <option value="JavaScript">JavaScript</option>
+                                    <option value="React">React</option>
+                                    <option value="Python">Python</option>
+                                    <option value="Java">Java</option>
+                                    <option value="Data Science">Data Science</option>
+                                </select>
+                            </td>
+                        </tr>
+            
+                        <!-- Course Mode -->
+                        <tr>
+                            <td>
+                                <label>Course Mode</label>
+                            </td>
+                            <td>
+                                <input type="radio"
+                                       id="online"
+                                       name="courseMode"
+                                       value="Online">
+            
+                                <label for="online">Online</label>
+            
+                                <input type="radio"
+                                       id="offline"
+                                       name="courseMode"
+                                       value="Offline">
+            
+                                <label for="offline">Offline</label>
+                            </td>
+                        </tr>
+            
+                        <!-- Timing -->
+                        <tr>
+                            <td>
+                                <label for="timing">Preferred Timing</label>
+                            </td>
+                            <td>
+                                <input type="time"
+                                       id="timing"
+                                       name="timing">
+                            </td>
+                        </tr>
+            
+                        <!-- Skills -->
+                        <tr>
+                            <td>
+                                <label>Skills Known</label>
+                            </td>
+                            <td>
+                                <input type="checkbox"
+                                       id="htmlSkill"
+                                       name="skills"
+                                       value="HTML">
+                                <label for="htmlSkill">HTML</label>
+            
+                                <input type="checkbox"
+                                       id="cssSkill"
+                                       name="skills"
+                                       value="CSS">
+                                <label for="cssSkill">CSS</label>
+            
+                                <input type="checkbox"
+                                       id="jsSkill"
+                                       name="skills"
+                                       value="JavaScript">
+                                <label for="jsSkill">JavaScript</label>
+            
+                                <input type="checkbox"
+                                       id="pythonSkill"
+                                       name="skills"
+                                       value="Python">
+                                <label for="pythonSkill">Python</label>
+                            </td>
+                        </tr>
+            
+                        <!-- Resume -->
+                        <tr>
+                            <td>
+                                <label for="resume">Upload Resume</label>
+                            </td>
+                            <td>
+                                <input type="file"
+                                       id="resume"
+                                       name="resume">
+                            </td>
+                        </tr>
+            
+                        <!-- LinkedIn -->
+                        <tr>
+                            <td>
+                                <label for="linkedin">LinkedIn Profile</label>
+                            </td>
+                            <td>
+                                <input type="url"
+                                       id="linkedin"
+                                       name="linkedin"
+                                       placeholder="https://linkedin.com/in/username">
+                            </td>
+                        </tr>
+            
+                        <!-- Website -->
+                        <tr>
+                            <td>
+                                <label for="website">Portfolio Website</label>
+                            </td>
+                            <td>
+                                <input type="url"
+                                       id="website"
+                                       name="website"
+                                       placeholder="https://yourwebsite.com">
+                            </td>
+                        </tr>
+            
+                        <!-- Experience -->
+                        <tr>
+                            <td>
+                                <label for="experience">Work Experience</label>
+                            </td>
+                            <td>
+                                <textarea id="experience"
+                                          name="experience"
+                                          rows="4"
+                                          cols="30"
+                                          placeholder="Enter your work experience"></textarea>
+                            </td>
+                        </tr>
+            
+                        <!-- Language -->
+                        <tr>
+                            <td>
+                                <label>Languages Known</label>
+                            </td>
+                            <td>
+                                <input type="checkbox"
+                                       id="english"
+                                       name="language"
+                                       value="English">
+                                <label for="english">English</label>
+            
+                                <input type="checkbox"
+                                       id="hindi"
+                                       name="language"
+                                       value="Hindi">
+                                <label for="hindi">Hindi</label>
+            
+                                <input type="checkbox"
+                                       id="tamil"
+                                       name="language"
+                                       value="Tamil">
+                                <label for="tamil">Tamil</label>
+                            </td>
+                        </tr>
+            
+                        <!-- Color -->
+                        <tr>
+                            <td>
+                                <label for="favColor">Favorite Color</label>
+                            </td>
+                            <td>
+                                <input type="color"
+                                       id="favColor"
+                                       name="favColor">
+                            </td>
+                        </tr>
+            
+                        <!-- Satisfaction -->
+                        <tr>
+                            <td>
+                                <label for="satisfaction">Interest Level</label>
+                            </td>
+                            <td>
+                                <input type="range"
+                                       id="satisfaction"
+                                       name="satisfaction"
+                                       min="1"
+                                       max="10">
+                            </td>
+                        </tr>
+            
+                        <!-- Payment -->
+                        <tr>
+                            <td>
+                                <label for="payment">Payment Method</label>
+                            </td>
+                            <td>
+                                <select id="payment" name="payment">
+                                    <option value="">Select Payment</option>
+                                    <option value="UPI">UPI</option>
+                                    <option value="Card">Debit/Credit Card</option>
+                                    <option value="NetBanking">Net Banking</option>
+                                </select>
+                            </td>
+                        </tr>
+            
+                        <!-- Terms -->
+                        <tr>
+                            <td colspan="2">
+                                <input type="checkbox"
+                                       id="terms"
+                                       name="terms"
+                                       required>
+            
+                                <label for="terms">
+                                    I agree to the terms and conditions
+                                </label>
+                            </td>
+                        </tr>
+            
+                        <!-- Reset Button -->
+                        <tr>
+                            <td colspan="2" align="center">
+            
+                                <button type="reset">
+                                    Reset Form
+                                </button>
+            
+                            </td>
+                        </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>

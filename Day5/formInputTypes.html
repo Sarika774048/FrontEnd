@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>All HTML Input Types Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            border: none;
+            vertical-align: top;
+        }
+
+        input,
+        select,
+        textarea,
+        button {
+            padding: 5px;
+            width: 250px;
+        }
+
+        .small {
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>All HTML Input Types and Attributes</h1>
+
+    <form id="allInputForm"
+          name="allInputForm"
+          action="submit.html"
+          method="post"
+          enctype="multipart/form-data"
+          autocomplete="on"
+          target="_blank"
+          accept-charset="UTF-8"
+          novalidate>
+
+        <table>
+
+            <!-- TEXT -->
+            <tr>
+                <td>
+                    <label for="fullname">Text</label>
+                </td>
+
+                <td>
+                    <input type="text"
+                           id="fullname"
+                           name="fullname"
+                           value=""
+                           placeholder="Enter Name"
+                           required
+                           minlength="3"
+                           maxlength="20"
+                           autofocus
+                           autocomplete="name">
+                </td>
+            </tr>
+
+            <!-- PASSWORD -->
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+
+                <td>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           value=""
+                           placeholder="Enter Password"
+                           required>
+                </td>
+            </tr>
+
+            <!-- EMAIL -->
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+
+                <td>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           value=""
+                           placeholder="Enter Email"
+                           multiple>
+                </td>
+            </tr>
+
+            <!-- NUMBER -->
+            <tr>
+                <td>
+                    <label for="age">Number</label>
+                </td>
+
+                <td>
+                    <input type="number"
+                           id="age"
+                           name="age"
+                           value="18"
+                           min="1"
+                           max="100"
+                           step="1">
+                </td>
+            </tr>
+
+            <!-- TEL -->
+            <tr>
+                <td>
+                    <label for="phone">Telephone</label>
+                </td>
+
+                <td>
+                    <input type="tel"
+                           id="phone"
+                           name="phone"
+                           value=""
+                           pattern="[0-9]{10}"
+                           placeholder="9876543210">
+                </td>
+            </tr>
+
+            <!-- URL -->
+            <tr>
+                <td>
+                    <label for="website">URL</label>
+                </td>
+
+                <td>
+                    <input type="url"
+                           id="website"
+                           name="website"
+                           value=""
+                           placeholder="https://example.com">
+                </td>
+            </tr>
+
+            <!-- SEARCH -->
+            <tr>
+                <td>
+                    <label for="search">Search</label>
+                </td>
+
+                <td>
+                    <input type="search"
+                           id="search"
+                           name="search"
+                           value=""
+                           placeholder="Search Here">
+                </td>
+            </tr>
+
+            <!-- DATE -->
+            <tr>
+                <td>
+                    <label for="date">Date</label>
+                </td>
+
+                <td>
+                    <input type="date"
+                           id="date"
+                           name="date"
+                           value="">
+                </td>
+            </tr>
+
+            <!-- DATETIME-LOCAL -->
+            <tr>
+                <td>
+                    <label for="datetime">Datetime Local</label>
+                </td>
+
+                <td>
+                    <input type="datetime-local"
+                           id="datetime"
+                           name="datetime"
+                           value="">
+                </td>
+            </tr>
+
+            <!-- MONTH -->
+            <tr>
+                <td>
+                    <label for="month">Month</label>
+                </td>
+
+                <td>
+                    <input type="month"
+                           id="month"
+                           name="month"
+                           value="">
+                </td>
+            </tr>
+
+            <!-- WEEK -->
+            <tr>
+                <td>
+                    <label for="week">Week</label>
+                </td>
+
+                <td>
+                    <input type="week"
+                           id="week"
+                           name="week"
+                           value="">
+                </td>
+            </tr>
+
+            <!-- TIME -->
+            <tr>
+                <td>
+                    <label for="time">Time</label>
+                </td>
+
+                <td>
+                    <input type="time"
+                           id="time"
+                           name="time"
+                           value="">
+                </td>
+            </tr>
+
+            <!-- COLOR -->
+            <tr>
+                <td>
+                    <label for="color">Color</label>
+                </td>
+
+                <td>
+                    <input type="color"
+                           id="color"
+                           name="color"
+                           value="#ff0000">
+                </td>
+            </tr>
+
+            <!-- RANGE -->
+            <tr>
+                <td>
+                    <label for="range">Range</label>
+                </td>
+
+                <td>
+                    <input type="range"
+                           id="range"
+                           name="range"
+                           value="5"
+                           min="0"
+                           max="10">
+                </td>
+            </tr>
+
+            <!-- RADIO -->
+            <tr>
+                <td>
+                    <label for="male">Radio</label>
+                </td>
+
+                <td>
+
+                    <input type="radio"
+                           id="male"
+                           name="gender"
+                           value="Male"
+                           class="small">
+
+                    <label for="male">Male</label>
+
+                    <input type="radio"
+                           id="female"
+                           name="gender"
+                           value="Female"
+                           class="small">
+
+                    <label for="female">Female</label>
+
+                </td>
+            </tr>
+
+            <!-- CHECKBOX -->
+            <tr>
+                <td>
+                    <label for="java">Checkbox</label>
+                </td>
+
+                <td>
+
+                    <input type="checkbox"
+                           id="java"
+                           name="skills"
+                           value="Java"
+                           class="small">
+
+                    <label for="java">Java</label>
+
+                    <input type="checkbox"
+                           id="python"
+                           name="skills"
+                           value="Python"
+                           class="small">
+
+                    <label for="python">Python</label>
+
+                </td>
+            </tr>
+
+            <!-- FILE -->
+            <tr>
+                <td>
+                    <label for="resume">File</label>
+                </td>
+
+                <td>
+                    <input type="file"
+                           id="resume"
+                           name="resume"
+                           value=""
+                           multiple
+                           accept=".pdf,.jpg">
+                </td>
+            </tr>
+
+            <!-- HIDDEN -->
+            <tr>
+                <td>
+                    Hidden
+                </td>
+
+                <td>
+                    <input type="hidden"
+                           id="userid"
+                           name="userid"
+                           value="101">
+
+                    Hidden Value Submitted
+                </td>
+            </tr>
+
+            <!-- IMAGE -->
+            <tr>
+                <td>
+                    <label for="imageBtn">Image</label>
+                </td>
+
+                <td>
+                    <input type="image"
+                           id="imageBtn"
+                           name="imageBtn"
+                           src="submit.png"
+                           alt="Submit"
+                           width="100"
+                           height="40">
+                </td>
+            </tr>
+
+            <!-- BUTTON -->
+            <tr>
+                <td>
+                    <label for="button1">Button</label>
+                </td>
+
+                <td>
+                    <input type="button"
+                           id="button1"
+                           name="button1"
+                           value="Click Me">
+                </td>
+            </tr>
+
+            <!-- RESET -->
+            <tr>
+                <td>
+                    <label for="resetBtn">Reset</label>
+                </td>
+
+                <td>
+                    <input type="reset"
+                           id="resetBtn"
+                           name="resetBtn"
+                           value="Reset Form">
+                </td>
+            </tr>
+
+            <!-- SUBMIT -->
+            <tr>
+                <td>
+                    <label for="submitBtn">Submit</label>
+                </td>
+
+                <td>
+                    <input type="submit"
+                           id="submitBtn"
+                           name="submitBtn"
+                           value="Submit Form">
+                </td>
+            </tr>
+
+            <!-- SELECT -->
+            <tr>
+                <td>
+                    <label for="country">Select</label>
+                </td>
+
+                <td>
+
+                    <select id="country"
+                            name="country">
+
+                        <option value="">Select Country</option>
+
+                        <option value="India">India</option>
+
+                        <option value="USA">USA</option>
+
+                        <option value="Germany">Germany</option>
+
+                    </select>
+
+                </td>
+            </tr>
+
+            <!-- TEXTAREA -->
+            <tr>
+                <td>
+                    <label for="address">Textarea</label>
+                </td>
+
+                <td>
+
+                    <textarea id="address"
+                              name="address"
+                              rows="4"
+                              cols="30"
+                              placeholder="Enter Address"></textarea>
+
+                </td>
+            </tr>
+
+            <!-- DATALIST -->
+            <tr>
+                <td>
+                    <label for="browser">Datalist</label>
+                </td>
+
+                <td>
+
+                    <input list="browsers"
+                           id="browser"
+                           name="browser"
+                           value=""
+                           placeholder="Choose Browser">
+
+                    <datalist id="browsers">
+
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                        <option value="Edge">
+
+                    </datalist>
+
+                </td>
+            </tr>
+
+            <!-- READONLY -->
+            <tr>
+                <td>
+                    <label for="college">Readonly</label>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           id="college"
+                           name="college"
+                           value="ABC College"
+                           readonly>
+
+                </td>
+            </tr>
+
+            <!-- DISABLED -->
+            <tr>
+                <td>
+                    <label for="course">Disabled</label>
+                </td>
+
+                <td>
+
+                    <input type="text"
+                           id="course"
+                           name="course"
+                           value="BCA"
+                           disabled>
+
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
