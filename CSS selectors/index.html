@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodalorie - Calorie-Conscious Food Delivery</title>
+    <link href="https://fonts.cdnfonts.com/css/forma-djr-banner" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation section class="section" -->
+    <header>
+        <nav class="navbar">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <h1 class="navbar-heading">Foodalorie 🥗</h1>
+                        <p class="navbar-para"><i>Track Calories, Taste Happiness</i></p>
+                    </td>
+                    <td align="right" class="nav-table-data">
+                        <b>
+                            <a class="nav-links" href="#home">Home</a> |
+                            <a class="nav-links" href="#about">About Us</a> |
+                            <a class="nav-links" href="#best-sellers">Best Sellers</a> |
+                            <a class="nav-links" href="#best-restaurants">Best Restaurants</a> |
+                            <a class="nav-links" href="#top-restaurants">Top Restaurants</a> |
+                            <a class="nav-links" href="#contact">Contact</a>
+                        </b>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <hr size="4" color="green">
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Home / Hero section class="section" -->
+        <section class="section">
+            <a name="home"></a>
+            <center>
+                <h2 class="section-heading">Welcome to Foodalorie</h2>
+                <h3 class="section-subheading">Your Ultimate Partner in Calorie-Tracked Meal Delivery!</h3>
+                <p class="home-para">
+                    Tired of ordering food and guessing its nutritional value?
+                    Foodalorie brings you hand-crafted, gourmet meals from top local restaurants
+                    with precise macro-nutrient and calorie information displayed upfront.
+                    Eat clean, support local culinary stars, and hit your fitness goals seamlessly!
+                </p>
+                <figure class="home-figure">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&auto=format&fit=crop&q=80"
+                        alt="Gourmet healthy food layout on a table" width="800" height="400">
+                    <figcaption id="figcaption">Healthy and delicious meals delivered directly to your doorstep.</figcaption>
+                </figure>
+                <br>
+                <p>
+                    <a href="#best-sellers">
+                        <button class="btn" type="button"><b>Explore Menu Items</b></button>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="#best-restaurants">
+                        <button class="btn" type="button"><b>Browse Restaurants</b></button>
+                    </a>
+                </p>
+            </center>
+        </section>
+
+        <hr size="2" color="lightgray">
+
+        <!-- About section class="section" -->
+        <section class="section">
+            <a name="about"></a>
+            <h2 class="section-heading">About Foodalorie</h2>
+
+            <article>
+                <h3 class="section-subheading">Our Story</h3>
+                <p class="about-para">
+                    Foodalorie was founded in 2024 by a passionate team of nutritionists, tech developers, and food
+                    lovers.
+                    We noticed that while modern food delivery apps made ordering convenient, they made calorie counting
+                    extremely difficult. Restaurant food is often packed with hidden oils, sugars, and extra calories.
+                    We set out to build a platform where every single dish is standardized, verified by registered
+                    dietitians,
+                    and prepared by top chefs using wholesome ingredients.
+                </p>
+            </article>
+
+            <article>
+                <h3 class="section-subheading">Our Core Mission</h3>
+                <p class="about-para">
+                    We believe that a healthy lifestyle shouldn't feel like a chore. Our mission is to democratize
+                    nutritional literacy. We make calorie-conscious eating accessible, transparent, and delicious
+                    by providing detailed macro breakdowns (proteins, carbs, fats) for every meal, so you know exactly
+                    what is entering your body.
+                </p>
+            </article>
+
+            <article>
+                <h3 class="section-subheading">How It Works</h3>
+                <ol class="about-ol">
+                    <li class="about-listitem">
+                        <b class="about-list-heading">Choose Your Daily Plan:</b> Select from Keto, Balanced, High-Protein, or Low-Carb diets,
+                        or set a specific calorie target (e.g., under 500 kcal per meal).
+                    </li>
+                    <li class="about-listitem">
+                        <b class="about-list-heading">Browse Verified Menus:</b> Explore dishes from our restaurant partners.
+                        Every item shows its calorie count and macronutrient breakdown.
+                    </li>
+                    <li class="about-listitem">
+                        <b class="about-list-heading">Fresh Preparation:</b> Our partner restaurants cook your order using fresh ingredients
+                        and exact portion controls.
+                    </li>
+                    <li class="about-listitem">
+                        <b class="about-list-heading">Swift & Care-filled Delivery:</b> Our delivery team ensures your hot meal reaches you
+                        quickly and safely.
+                    </li>
+                </ol>
+            </article>
+
+            <article>
+                <h3 class="section-subheading">Our Impact by the Numbers</h3>
+                <ul>
+                    <li><b>50+</b> Premium Partner Restaurants</li>
+                    <li><b>10,000+</b> Active Daily Users</li>
+                    <li><b>250k+</b> Healthy Meals Delivered</li>
+                    <li><b>15 Million+</b> Calories Tracked by our community</li>
+                </ul>
+            </article>
+        </section>
+
+        <hr size="2" color="lightgray">
+
+        <!-- Best Sellers / Food Items section class="section" -->
+        <section class="section">
+            <a name="best-sellers"></a>
+            <h2 class="section-heading">Best Sellers - Top Food Items</h2>
+            <p>Here are some of our most ordered and highly-rated healthy dishes this week. Each dish comes with full
+                nutritional values.</p>
+
+            <table width="100%">
+                <tr>
+                    <!-- Food Item Card 1 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300&auto=format&fit=crop&q=80"
+                                    alt="Avocado Quinoa Power Salad" width="100%" height="180">
+                            </figure>
+                            <h3 class="section-subheading">Avocado Quinoa Salad</h3>
+                            <p><b>320 kcal | 10g Protein | 15g Fats</b></p>
+                            <p>
+                                Creamy Hass avocado slices tossed with fluffy organic quinoa, organic cherry tomatoes,
+                                diced cucumbers, and a drizzle of hand-whisked lemon-herb dressing.
+                            </p>
+                            <button type="button">Order Now</button>
+                        </article>
+                    </td>
+
+                    <!-- Food Item Card 2 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=300&auto=format&fit=crop&q=80"
+                                    alt="Grilled Herb Chicken Breast" width="100%" height="180">
+                            </figure>
+                            <h3 class="section-subheading">Grilled Herb Chicken</h3>
+                            <p><b>450 kcal | 42g Protein | 8g Fats</b></p>
+                            <p>
+                                Tender, slow-grilled lean chicken breast seasoned with garlic and rosemary, served with
+                                a side
+                                of steamed garden broccoli and soft roasted sweet potatoes.
+                            </p>
+                            <button type="button">Order Now</button>
+                        </article>
+                    </td>
+
+                    <!-- Food Item Card 3 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?w=300&auto=format&fit=crop&q=80"
+                                    alt="Protein-Packed Acai Bowl" width="100%" height="180">
+                            </figure>
+                            <h3 class="section-subheading">Protein Acai Bowl</h3>
+                            <p><b>280 kcal | 8g Protein | 6g Fats</b></p>
+                            <p>
+                                Organic pure acai berry blend topped with raw sliced almonds, organic chia seeds,
+                                fresh farm strawberries, sliced banana, and raw local honey.
+                            </p>
+                            <button type="button">Order Now</button>
+                        </article>
+                    </td>
+
+                    <!-- Food Item Card 4 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=300&auto=format&fit=crop&q=80"
+                                    alt="Zucchini Noodles with Pesto" width="100%" height="180">
+                            </figure>
+                            <h3 class="section-subheading">Zucchini Pesto Noodles</h3>
+                            <p><b>190 kcal | 5g Protein | 12g Fats</b></p>
+                            <p>
+                                Fresh spiralized zucchini noodles tossed in a dairy-free basil pine nut pesto,
+                                finished with slow-roasted cherry tomatoes and pumpkin seeds.
+                            </p>
+                            <button type="button">Order Now</button>
+                        </article>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr size="2" color="lightgray">
+
+        <!-- Best Restaurants section class="section" -->
+        <section class="section">
+            <a name="best-restaurants"></a>
+            <h2 class="section-heading">Best Restaurants</h2>
+            <p>Our top-rated restaurant partners dedicated to quality ingredients and macro transparency.</p>
+
+            <table width="100%">
+                <tr>
+                    <!-- Restaurant Card 1 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=300&auto=format&fit=crop&q=80"
+                                    alt="The Green Garden Cafe facade" width="100%" height="180">
+                            </figure>
+                            <h3 class="section-subheading">The Green Garden Cafe</h3>
+                            <p><b>Cuisine: Organic, Salads, Juice</b></p>
+                            <p>
+                                A sanctuary of wellness. They prioritize zero pesticide produce and make all dressings
+                                from scratch with avocado oil instead of processed seeds oil.
+                            </p>
+                            <button type="button">View Menu</button>
+                        </article>
+                    </td>
+
+                    <!-- Restaurant Card 2 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=300&auto=format&fit=crop&q=80"
+                                    alt="Lean & Clean Bistro interior" width="100%" height="180">
+                            </figure>
+                            <h3>Lean & Clean Bistro</h3>
+                            <p><b>Cuisine: Fitness, High-Protein</b></p>
+                            <p>
+                                Designed for athletes and fitness enthusiasts. Their menu highlights exact weight
+                                portioning
+                                for protein, carbohydrates, and healthy fats.
+                            </p>
+                            <button type="button">View Menu</button>
+                        </article>
+                    </td>
+
+                    <!-- Restaurant Card 3 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=300&auto=format&fit=crop&q=80"
+                                    alt="Calorie Smart Sushi plate" width="100%" height="180">
+                            </figure>
+                            <h3>Calorie Smart Sushi</h3>
+                            <p><b>Cuisine: Japanese, Seafood, Light</b></p>
+                            <p>
+                                Traditional Japanese sashimi, hand rolls, and nigiri prepared with brown rice options
+                                and
+                                low-sodium sauces, keeping your sodium and calorie count in check.
+                            </p>
+                            <button type="button">View Menu</button>
+                        </article>
+                    </td>
+
+                    <!-- Restaurant Card 4 -->
+                    <td width="25%" valign="top">
+                        <article>
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300&auto=format&fit=crop&q=80"
+                                    alt="Sweet & Healthy Bakery bread" width="100%" height="180">
+                            </figure>
+                            <h3>Sweet & Healthy Bakery</h3>
+                            <p><b>Cuisine: Keto Desserts, Sugar-Free</b></p>
+                            <p>
+                                Dessert without the guilt. Handcrafting cupcakes, bread, and pastries using almond
+                                flour,
+                                stevia, monkfruit, and high-fiber ingredients.
+                            </p>
+                            <button type="button">View Menu</button>
+                        </article>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr size="2" color="lightgray">
+
+        <!-- Top Restaurants section class="section" -->
+        <section class="section">
+            <a name="top-restaurants"></a>
+            <h2 class="section-heading">Top Restaurants List</h2>
+            <p>Our gold-standard partners chosen for their exceptional calorie accuracy and gourmet taste profiles.</p>
+
+            <table width="100%" border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Restaurant</th>
+                        <th>Location</th>
+                        <th>Specialty Diet</th>
+                        <th>Popular Dish</th>
+                        <th>Calorie Range</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>The Green Garden Cafe</b></td>
+                        <td>Downtown Avenue</td>
+                        <td>Keto & Vegan</td>
+                        <td>Avocado Quinoa Salad</td>
+                        <td>200 - 450 kcal</td>
+                        <td>4.8 / 5.0</td>
+                    </tr>
+                    <tr>
+                        <td><b>Lean & Clean Bistro</b></td>
+                        <td>Fitness Park St.</td>
+                        <td>High-Protein & Low-Fat</td>
+                        <td>Grilled Herb Chicken</td>
+                        <td>350 - 600 kcal</td>
+                        <td>4.9 / 5.0</td>
+                    </tr>
+                    <tr>
+                        <td><b>Calorie Smart Sushi</b></td>
+                        <td>Seaside Boulevard</td>
+                        <td>Low-Sodium Japanese</td>
+                        <td>Sashimi Power Plate</td>
+                        <td>250 - 500 kcal</td>
+                        <td>4.7 / 5.0</td>
+                    </tr>
+                    <tr>
+                        <td><b>Sweet & Healthy Bakery</b></td>
+                        <td>Baker Street East</td>
+                        <td>Sugar-Free & Gluten-Free</td>
+                        <td>Keto Chocolate Cupcake</td>
+                        <td>120 - 300 kcal</td>
+                        <td>4.8 / 5.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr size="2" color="lightgray">
+
+        <!-- Contact section class="section" -->
+        <section class="section">
+            <a name="contact"></a>
+            <h2 class="section-heading">Contact Us</h2>
+            <p>Have any questions, dietary preferences, or feedback? Drop us a line and our nutrition experts will get
+                back to you!</p>
+
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend><b>Get in Touch</b></legend>
+                    <br>
+                    <p>
+                        <label><b>Full Name:</b></label><br>
+                        <input type="text" name="username" placeholder="Enter your full name" required>
+                    </p>
+                    <p>
+                        <label><b>Email ID:</b></label><br>
+                        <input type="email" name="useremail" placeholder="Enter your email address" required>
+                    </p>
+                    <p>
+                        <label><b>Mobile Number:</b></label><br>
+                        <input type="tel" name="usermobile" placeholder="Enter 10-digit mobile number"
+                            pattern="[0-9]{10}" required>
+                    </p>
+                    <p>
+                        <label><b>Dietary Preferences (Optional):</b></label><br>
+                        <textarea name="userdiet" rows="4" cols="40"
+                            placeholder="e.g., Keto, Vegan, Gluten-free..."></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Submit Request</button>
+                        &nbsp;&nbsp;
+                        <button type="reset">Clear Fields</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <hr size="4" color="green">
+
+    <!-- Footer section class="section" -->
+    <footer>
+        <table width="100%">
+            <tr>
+                <td width="40%">
+                    <h3 class="section-subheading">Foodalorie Inc.</h3>
+                    <p>123 Nutrition Parkway, Suite 100, Healthy Ville - 560076</p>
+                    <p>Phone: <a href="tel:+18005551234">1-800-555-1234</a> | Email: <a
+                            href="mailto:support@foodalorie.com">support@foodalorie.com</a></p>
+                </td>
+                <td width="30%">
+                    <h4 class="section-subheading">Quick Links</h4>
+                    <ul> 
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#best-sellers">Best Sellers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </td>
+                <td width="30%" align="right" valign="top">
+                    <h4 class="section-subheading">Connect With Us</h4>
+                    <!-- LinkedIn Link -->
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="LinkedIn Logo"
+                            width="40" height="40">
+                    </a>
+                    &nbsp;
+                    <!-- Twitter/X Link -->
+                    <a href="https://twitter.com" target="_blank">
+                        <img style="border: 1px solid aqua;border-radius:10px"
+                            src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="Twitter Logo" width="40"
+                            height="40">
+                    </a>
+                    &nbsp;
+                    <!-- YouTube Link -->
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="YouTube Logo" width="40"
+                            height="40">
+                    </a>
+                    &nbsp;
+                    <!-- Instagram Link -->
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png" alt="Instagram Logo"
+                            width="40" height="40">
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <center>
+            <p>&copy; 2026 Foodalorie. Built strictly with pure, semantic HTML. All rights reserved.</p>
+        </center>
+    </footer>
+
+</body>
+
+</html>

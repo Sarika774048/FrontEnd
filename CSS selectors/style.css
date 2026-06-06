@@ -1,0 +1,154 @@
+@import url("https://fonts.cdnfonts.com/css/major-birch");
+
+* {
+  font-family: "Forma DJR Banner", sans-serif;
+  font-family: "Forma DJR Display", sans-serif;
+  font-family: "Forma DJR Micro", sans-serif;
+  font-family: "Forma DJR Text", sans-serif;
+  font-family: "Forma DJR Deck", sans-serif;
+  font-family: "Forma DJR Variable", sans-serif;
+}
+/* * {
+  font-family: "Major Birch", sans-serif;
+} */
+
+body {
+  background-color: black;
+  color: white;
+
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #060103,
+    #0a0208,
+    #0c030e,
+    #0c0513,
+    #0e0e1c,
+    #0a1525,
+    #001c2d,
+    #002838,
+    #003438,
+    #003f2e,
+    #06481b
+  );
+}
+header {
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #1a000d,
+    #24021b,
+    #2b032c,
+    #2b0542,
+    #2b0856,
+    #240f6b,
+    #041882,
+    #031b99,
+    #041eb1,
+    #0920c9,
+    #1321e1
+  );
+  width: full;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.nav-links:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #e60abd,
+    #e406b2,
+    #e206a8,
+    #df089e,
+    #db0d94
+  );
+  text-decoration: underline;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    0 0 2px #e406b2,
+    0 0 2px #e406b2,
+    0 0 1px #e406b2;
+}
+
+.navbar-heading {
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 900 !important;
+  font-family: "Forma DJR Banner", sans-serif;
+}
+.navbar-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.section-heading {
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  color:chartreuse;
+}
+
+.section-subheading {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #f757d2;
+}
+
+.home-para{
+    font-size:17px;
+    font-weight: 500;
+    color:antiquewhite;
+}
+
+img{
+    border-radius:20px;
+}
+
+#figcaption{
+    letter-spacing:2px;
+    color:rgb(232, 149, 89);
+}
+
+.btn{
+  background-image: linear-gradient(to right, #0016bd, #7500be, #ac00bb, #d800b7, #ff05b1);
+    color:white;
+    border:none;
+    padding:10px;
+    font-size:16px;
+    border-radius:10px;
+    cursor:pointer;
+    transition: background 0.3s ease;
+}
+.btn:hover{
+    transition: background 0.3s ease;
+    background-image: linear-gradient(to right, #ff05b1, #d800b7, #ac00bb, #7500be, #0016bd);
+    text-shadow: 0 0 5px #ff05b1, 0 0 10px #ff05b1, 0 0 15px #ff05b1;
+    box-shadow: 0 0 10px #ff05b1, 0 0 20px #ff05b1, 0 0 30px #ff05b1;
+}
+
+.about-para{
+    font-size:16px;
+    font-weight: 500;
+    letter-spacing:1px;
+    color:bisque;
+}
+.about-listitem{
+    color:antiquewhite;
+    font-size:16px;
+}
+.about-list-heading{
+    color:chartreuse;
+    font-size:18px;
+    font-weight: 600;
+}
