@@ -102,3 +102,12 @@ console.log(boolToNum + " " + typeof boolToNum);
 let boolNumFalse = false;
 let boolToNumFalse = Number(boolNumFalse);
 console.log(boolToNumFalse + " " + typeof boolToNumFalse);
+
+
+let z = '12323Tap123123';
+let y = parseInt(z);
+console.log(y);
+
+let u = '123.7904Tap';
+let v = parseFloat(u);
+console.log(v + " " + typeof v );
