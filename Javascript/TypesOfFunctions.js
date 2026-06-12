@@ -31,11 +31,17 @@ let isPasswordStrong = function(password){
 console.log(isPasswordStrong("78932njk"));
 console.log(isPasswordStrong("saie0"));
 
-
+// ARROW FUNCTION
 let convertMinuteToHours  = (min) => (min / 60);
+let convertHoursToMinutes = (hours) => (hours * 60);
 
 
 console.log(convertMinuteToHours(240));
+console.log(convertHoursToMinutes(6));
+
+let square = (x) =>x*x;
+
+console.log(square(3));
 
 // IMMEDIATELY INVOKED FUNCTION EXPRESSION
 
