@@ -26,3 +26,7 @@ Student.celebrateBirthday();
 console.log(Student.address.city);
 console.log(Student.address.street);
 console.log(Student.address.state);
+
+
+console.log("The this keyword inside vs code");
+console.log(this);
