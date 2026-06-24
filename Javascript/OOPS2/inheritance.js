@@ -62,7 +62,6 @@ class Developer extends Employee{
     calulateBonus(){
         return this.salary * 0.2;
     }
-
 }
 
 const d1 = new Developer("Yogi", 80000, "Java");
