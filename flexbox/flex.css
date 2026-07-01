@@ -1,0 +1,48 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.container{
+    border : 2px solid blue;
+    height : 500px;
+    width : 100%;
+    display: flex;
+
+}
+
+.box {
+    margin : 10px;
+    height: 100px;
+    width: 100px;
+    border: 2px double green;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 0, 0, 0.5),
+        rgba(0, 0, 255, 0.5),
+        rgba(0, 128, 0, 0.5),
+        rgba(255, 255, 0, 0.5),
+        rgba(255, 255, 255, 0.5),
+        rgba(165, 42, 42, 0.5),
+        rgba(128, 0, 128, 0.5)
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    margin : 20px;
+    background-color: rgb(209, 206, 226);
+    transform :scale(1.2);
+    box-shadow : 2px 2px 100px darkcyan;
+    transition: all 0.2s ease-in;
+}
+
+span{
+    color : blue;
+    font-size : 50px;
+    font-weight : bold;
+}
