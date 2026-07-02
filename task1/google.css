@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+.header-main-div {
+  position : sticky;
+  display: flex;
+  justify-content: space-between;
+  margin:15px;
+}
+
+.header-div1 {
+  display: flex;
+  gap: 20px;
+}
+
+.header-div2 {
+     display: flex;
+     gap: 20px;
+     justify-content : center;
+     align-items:center;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.icons{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+.google{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.googles-image{
+    width: 475px;
+    height : 200px;
+    margin : 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* Change the radius to 24px */
+    border-radius: 24px; 
+    
+    /* Use a fixed height so it maintains its shape */
+    height: 46px; 
+    
+    /* Give it a softer, more authentic border color */
+    border: 1px solid #dfe1e5; 
+    
+    width: 50%;
+    margin: auto;
+    
+    /* This forces any inner element to stay inside the rounded corners */
+    overflow: hidden; 
+    
+    /* A softer shadow that matches the real page */
+    box-shadow: none; 
+    transition: box-shadow 0.2s;
+}
+
+/* Add a hover effect to mimic the real behavior */
+.search-bar:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.plus{
+    display : flex;
+    flex-direction:start;
+    padding : 7px; 
+    padding-left : 10px;
+    font-size:30px;
+}
+
+.search-icons{
+    display : flex;
+    flex-direction:start;
+    padding : 7px; 
+    padding-right : 10px;
+}
+
+.happy-box{
+    display : flex;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.hbox{
+    background-color:rgba(244, 238, 238, 0.876);
+    padding : 10px;
+    border-radius: 10px;
+
+}
+
+.languages{
+    margin:30px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content:center;
+    font-size : small;
+}
+
+.text-underline{
+    text-decoration:none;
+    color : rgba(4, 4, 114, 0.822);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content */
+main {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  background: #f2f2f2;
+}
+
+.india{
+    padding : 10px;
+}
+
+.footer-div{
+    display :flex;
+    justify-content : space-between;
+}
+
+.footer-links{
+    display : flex;
+    justify-content : space-evenly;
+    gap:20px;
+}
+
+.footer-indivisual-links{
+    color : black;
+    text-decoration: none;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    font-size: 20px; /* Slightly smaller to fit gracefully */
+    color: #9aa0a6; /* Google's icon color */
+}
