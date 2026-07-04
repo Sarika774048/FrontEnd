@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    
+    <div id="container">
+        <p class="para">Hello, World!</p>
+        <p class="para">This is a paragraph.</p>
+        <p class="para">This is another paragraph.</p>
+        <p class="para">This is the last paragraph.</p>
+    </div>
+
+    <ul id = "list">
+        <li class="li">apple</li>
+        <li class="li">oracle</li>
+        <li class="li">google</li>
+        <li class="li">nvidia</li>
+    </ul>
+    
+    <div id="headings">
+        <h2 class="first">first</h2>
+        <h2 class="second">second</h2>
+        <h2 class="third">third</h2>
+    </div>
+
+    <script>
+        // returns a HTMLCollection of all elements with the class name "para"
+        const paragraphs = document.getElementsByClassName("para");
+        console.log(paragraphs);
+        console.log(paragraphs[0].textContent);
+        console.log(paragraphs.length);
+
+        // loop through the HTMLCollection and log 
+        for(let i=0; i<paragraphs.length; i++){
+            console.log(paragraphs[i]);
+        }
+       for(let i=0; i<paragraphs.length; i++){
+            console.log(paragraphs[i].textContent);
+        } 
+
+        const container = document.getElementById("container");
+        console.log(container);
+        console.log(container.textContent);
+        container.style.backgroundColor = "cyan";
+        container.style.padding ="20px";
+
+        const list = document.getElementById("list");
+        console.log(list);
+        
+        const li = document.getElementsByClassName("li");
+        for(let i=0; i<li.length; i++){
+            li[i].textContent = li[i].textContent.toUpperCase();
+        }
+
+        const h2 = document.querySelector("h2");
+        console.log(h2.textContent);
+        const headings = document.querySelectorAll("h2");
+        console.log(headings);
+    </script>
+</body>
+</html>
