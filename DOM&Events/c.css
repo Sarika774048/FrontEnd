@@ -1,0 +1,40 @@
+*{
+    background-color: #232323;
+    color :white;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding : 20px;
+}
+
+.box{
+    width : 200px;
+    height : 200px;
+    background-color : chartreuse;
+    display : flex;
+    justify-content : center;
+    align-items:center;
+    color : black;
+    font-weight : 900;
+    font-size : 20px;
+    margin : 20px 0px;
+    transition : all 0.3s ease;
+}
+
+.highlight {
+    width : 250px;
+    background-color :red;
+    transform:scale(1.2);
+    color : 
+    rgb(6, 91, 21)
+}
+
+.rounded {
+    border-radius : 50%;
+}
+
+.shadow {
+    box-shadow : 10px 20px 80px aqua;
+}
+
